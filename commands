@@ -1,0 +1,39 @@
+Installed:
+Ubuntu
+ROS
+Rosbridge
+
+https://raspberrypi.stackexchange.com/questions/114366/rpi4-serial-port-not-working-on-either-raspberry-os-or-ubuntu
+
+https://www.waveshare.com/wiki/Chassis_Control_Tutorial
+
+
+
+
+
+
+
+
+each time
+
+
+
+
+source /opt/ros/humble/setup.bash
+
+sudo chmod 666 /dev/ttyS0
+
+cd ~/ros2_ws
+
+source ./install/setup.bash
+
+
+[seperate terminal]
+
+source /opt/ros/humble/setup.bash
+
+ros2 launch rosbridge_server rosbridge_websocket_launch.xml 
+
+
+
+
