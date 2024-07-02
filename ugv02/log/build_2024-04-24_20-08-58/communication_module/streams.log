@@ -1,0 +1,24 @@
+[3.138s] Invoking command in '/home/mine/Desktop/ugv02/src/communication_module': PYTHONPATH=/home/mine/Desktop/ugv02/build/communication_module/prefix_override:/home/mine/Desktop/ugv02/install/communication_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/communication_module build --build-base /home/mine/Desktop/ugv02/build/communication_module/build install --record /home/mine/Desktop/ugv02/build/communication_module/install.log --single-version-externally-managed install_data
+[4.291s] running egg_info
+[4.294s] writing ../../build/communication_module/communication_module.egg-info/PKG-INFO
+[4.295s] writing dependency_links to ../../build/communication_module/communication_module.egg-info/dependency_links.txt
+[4.296s] writing entry points to ../../build/communication_module/communication_module.egg-info/entry_points.txt
+[4.297s] writing requirements to ../../build/communication_module/communication_module.egg-info/requires.txt
+[4.298s] writing top-level names to ../../build/communication_module/communication_module.egg-info/top_level.txt
+[4.306s] reading manifest file '../../build/communication_module/communication_module.egg-info/SOURCES.txt'
+[4.309s] writing manifest file '../../build/communication_module/communication_module.egg-info/SOURCES.txt'
+[4.310s] running build
+[4.311s] running build_py
+[4.311s] copying communication_module/ugv02_control.py -> /home/mine/Desktop/ugv02/build/communication_module/build/lib/communication_module
+[4.313s] running install
+[4.314s] running install_lib
+[4.318s] copying /home/mine/Desktop/ugv02/build/communication_module/build/lib/communication_module/ugv02_control.py -> /home/mine/Desktop/ugv02/install/communication_module/lib/python3.10/site-packages/communication_module
+[4.321s] byte-compiling /home/mine/Desktop/ugv02/install/communication_module/lib/python3.10/site-packages/communication_module/ugv02_control.py to ugv02_control.cpython-310.pyc
+[4.323s] running install_data
+[4.324s] running install_egg_info
+[4.330s] removing '/home/mine/Desktop/ugv02/install/communication_module/lib/python3.10/site-packages/communication_module-0.0.0-py3.10.egg-info' (and everything under it)
+[4.332s] Copying ../../build/communication_module/communication_module.egg-info to /home/mine/Desktop/ugv02/install/communication_module/lib/python3.10/site-packages/communication_module-0.0.0-py3.10.egg-info
+[4.341s] running install_scripts
+[4.436s] Installing ugv02_control script to /home/mine/Desktop/ugv02/install/communication_module/lib/communication_module
+[4.437s] writing list of installed files to '/home/mine/Desktop/ugv02/build/communication_module/install.log'
+[4.569s] Invoked command in '/home/mine/Desktop/ugv02/src/communication_module' returned '0': PYTHONPATH=/home/mine/Desktop/ugv02/build/communication_module/prefix_override:/home/mine/Desktop/ugv02/install/communication_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/communication_module build --build-base /home/mine/Desktop/ugv02/build/communication_module/build install --record /home/mine/Desktop/ugv02/build/communication_module/install.log --single-version-externally-managed install_data

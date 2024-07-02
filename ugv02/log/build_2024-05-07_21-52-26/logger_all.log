@@ -1,0 +1,127 @@
+[2.046s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.047s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8dbfe020>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8dd06620>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8dd06620>>, mixin_verb=('build',))
+[4.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.756s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.756s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.757s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.757s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mine/Desktop/ugv02'
+[4.758s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.759s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.761s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.765s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.765s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.888s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.891s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.893s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.893s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.896s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.897s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.898s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.900s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.903s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.904s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.905s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.906s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.907s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.908s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.908s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.909s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.909s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.910s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.910s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.911s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.912s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.913s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication_module) by extensions ['ignore', 'ignore_ament_install']
+[4.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication_module) by extension 'ignore'
+[4.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication_module) by extension 'ignore_ament_install'
+[4.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication_module) by extensions ['colcon_pkg']
+[4.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication_module) by extension 'colcon_pkg'
+[4.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication_module) by extensions ['colcon_meta']
+[4.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication_module) by extension 'colcon_meta'
+[4.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication_module) by extensions ['ros']
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication_module) by extension 'ros'
+[4.955s] DEBUG:colcon.colcon_core.package_identification:Package 'src/communication_module' with type 'ros.ament_python' and name 'communication_module'
+[4.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.314s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/mine/Desktop/ugv02/install
+[5.327s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 337 installed packages in /opt/ros/humble
+[5.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.819s] Level 5:colcon.colcon_core.verb:set package 'communication_module' build argument 'cmake_args' from command line to 'None'
+[5.819s] Level 5:colcon.colcon_core.verb:set package 'communication_module' build argument 'cmake_target' from command line to 'None'
+[5.820s] Level 5:colcon.colcon_core.verb:set package 'communication_module' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.820s] Level 5:colcon.colcon_core.verb:set package 'communication_module' build argument 'cmake_clean_cache' from command line to 'False'
+[5.821s] Level 5:colcon.colcon_core.verb:set package 'communication_module' build argument 'cmake_clean_first' from command line to 'False'
+[5.821s] Level 5:colcon.colcon_core.verb:set package 'communication_module' build argument 'cmake_force_configure' from command line to 'False'
+[5.821s] Level 5:colcon.colcon_core.verb:set package 'communication_module' build argument 'ament_cmake_args' from command line to 'None'
+[5.821s] Level 5:colcon.colcon_core.verb:set package 'communication_module' build argument 'catkin_cmake_args' from command line to 'None'
+[5.822s] Level 5:colcon.colcon_core.verb:set package 'communication_module' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.822s] DEBUG:colcon.colcon_core.verb:Building package 'communication_module' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mine/Desktop/ugv02/build/communication_module', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mine/Desktop/ugv02/install/communication_module', 'merge_install': False, 'path': '/home/mine/Desktop/ugv02/src/communication_module', 'symlink_install': False, 'test_result_base': None}
+[5.825s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.833s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.834s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mine/Desktop/ugv02/src/communication_module' with build type 'ament_python'
+[5.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('communication_module', 'ament_prefix_path')
+[5.887s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mine/Desktop/ugv02/install/communication_module/share/communication_module/hook/ament_prefix_path.ps1'
+[5.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mine/Desktop/ugv02/install/communication_module/share/communication_module/hook/ament_prefix_path.dsv'
+[5.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mine/Desktop/ugv02/install/communication_module/share/communication_module/hook/ament_prefix_path.sh'
+[5.915s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.916s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.990s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mine/Desktop/ugv02/src/communication_module'
+[8.993s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.998s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mine/Desktop/ugv02/src/communication_module': PYTHONPATH=/home/mine/Desktop/ugv02/build/communication_module/prefix_override:/home/mine/Desktop/ugv02/install/communication_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/communication_module build --build-base /home/mine/Desktop/ugv02/build/communication_module/build install --record /home/mine/Desktop/ugv02/build/communication_module/install.log --single-version-externally-managed install_data
+[16.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mine/Desktop/ugv02/src/communication_module' returned '0': PYTHONPATH=/home/mine/Desktop/ugv02/build/communication_module/prefix_override:/home/mine/Desktop/ugv02/install/communication_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/communication_module build --build-base /home/mine/Desktop/ugv02/build/communication_module/build install --record /home/mine/Desktop/ugv02/build/communication_module/install.log --single-version-externally-managed install_data
+[16.945s] Level 1:colcon.colcon_core.environment:checking '/home/mine/Desktop/ugv02/install/communication_module' for CMake module files
+[16.949s] Level 1:colcon.colcon_core.environment:checking '/home/mine/Desktop/ugv02/install/communication_module' for CMake config files
+[16.956s] Level 1:colcon.colcon_core.environment:checking '/home/mine/Desktop/ugv02/install/communication_module/lib'
+[16.957s] Level 1:colcon.colcon_core.environment:checking '/home/mine/Desktop/ugv02/install/communication_module/bin'
+[16.958s] Level 1:colcon.colcon_core.environment:checking '/home/mine/Desktop/ugv02/install/communication_module/lib/pkgconfig/communication_module.pc'
+[16.960s] Level 1:colcon.colcon_core.environment:checking '/home/mine/Desktop/ugv02/install/communication_module/lib/python3.10/site-packages'
+[16.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('communication_module', 'pythonpath')
+[16.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mine/Desktop/ugv02/install/communication_module/share/communication_module/hook/pythonpath.ps1'
+[16.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mine/Desktop/ugv02/install/communication_module/share/communication_module/hook/pythonpath.dsv'
+[16.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mine/Desktop/ugv02/install/communication_module/share/communication_module/hook/pythonpath.sh'
+[16.981s] Level 1:colcon.colcon_core.environment:checking '/home/mine/Desktop/ugv02/install/communication_module/bin'
+[16.982s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(communication_module)
+[16.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/mine/Desktop/ugv02/install/communication_module/share/communication_module/package.ps1'
+[17.003s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mine/Desktop/ugv02/install/communication_module/share/communication_module/package.dsv'
+[17.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/mine/Desktop/ugv02/install/communication_module/share/communication_module/package.sh'
+[17.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/mine/Desktop/ugv02/install/communication_module/share/communication_module/package.bash'
+[17.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/mine/Desktop/ugv02/install/communication_module/share/communication_module/package.zsh'
+[17.416s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mine/Desktop/ugv02/install/communication_module/share/colcon-core/packages/communication_module)
+[17.423s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.425s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.425s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.426s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.496s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.498s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.499s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.742s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.745s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mine/Desktop/ugv02/install/local_setup.ps1'
+[17.760s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mine/Desktop/ugv02/install/_local_setup_util_ps1.py'
+[17.771s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mine/Desktop/ugv02/install/setup.ps1'
+[17.780s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mine/Desktop/ugv02/install/local_setup.sh'
+[17.793s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mine/Desktop/ugv02/install/_local_setup_util_sh.py'
+[17.802s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mine/Desktop/ugv02/install/setup.sh'
+[17.814s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mine/Desktop/ugv02/install/local_setup.bash'
+[17.819s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mine/Desktop/ugv02/install/setup.bash'
+[17.830s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mine/Desktop/ugv02/install/local_setup.zsh'
+[17.839s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mine/Desktop/ugv02/install/setup.zsh'

@@ -1,0 +1,34 @@
+[0.074s] Invoking command in '/home/mine/newtest/build/ugv02_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mine/newtest/src/ugv02_bringup -DCMAKE_INSTALL_PREFIX=/home/mine/newtest/install/ugv02_bringup
+[0.704s] -- The C compiler identification is GNU 11.4.0
+[1.439s] -- The CXX compiler identification is GNU 11.4.0
+[1.480s] -- Detecting C compiler ABI info
+[1.832s] -- Detecting C compiler ABI info - done
+[1.859s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.861s] -- Detecting C compile features
+[1.863s] -- Detecting C compile features - done
+[1.880s] -- Detecting CXX compiler ABI info
+[2.257s] -- Detecting CXX compiler ABI info - done
+[2.284s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.286s] -- Detecting CXX compile features
+[2.288s] -- Detecting CXX compile features - done
+[2.320s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.088s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.776s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.285s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.288s] -- Added test 'lint_cmake' to check CMake code style
+[4.291s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.299s] -- Added test 'xmllint' to check XML markup files
+[4.307s] -- Configuring done
+[4.326s] -- Generating done
+[4.330s] -- Build files have been written to: /home/mine/newtest/build/ugv02_bringup
+[4.345s] Invoked command in '/home/mine/newtest/build/ugv02_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mine/newtest/src/ugv02_bringup -DCMAKE_INSTALL_PREFIX=/home/mine/newtest/install/ugv02_bringup
+[4.356s] Invoking command in '/home/mine/newtest/build/ugv02_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mine/newtest/build/ugv02_bringup -- -j4 -l4
+[4.502s] Invoked command in '/home/mine/newtest/build/ugv02_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mine/newtest/build/ugv02_bringup -- -j4 -l4
+[4.619s] Invoking command in '/home/mine/newtest/build/ugv02_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mine/newtest/build/ugv02_bringup
+[4.648s] -- Install configuration: ""
+[4.648s] [31mCMake Error at cmake_install.cmake:46 (file):
+[4.649s]   file INSTALL cannot find "/home/mine/newtest/src/ugv02_bringup/config": No
+[4.649s]   such file or directory.
+[4.650s] 
+[4.650s] [0m
+[4.653s] Invoked command in '/home/mine/newtest/build/ugv02_bringup' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mine/newtest/build/ugv02_bringup

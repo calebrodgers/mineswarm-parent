@@ -1,0 +1,40 @@
+[1.361s] Invoking command in '/home/mine/Desktop/ugv02/build/rplidar_ros': /usr/bin/cmake /home/mine/Desktop/ugv02/src/rplidar_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mine/Desktop/ugv02/install/rplidar_ros
+[1.609s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.610s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[1.610s]   CMake.
+[1.611s] 
+[1.611s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.612s]   CMake that the project does not need compatibility with older versions.
+[1.613s] 
+[1.618s] [0m
+[2.694s] -- The C compiler identification is GNU 11.4.0
+[3.745s] -- The CXX compiler identification is GNU 11.4.0
+[3.819s] -- Detecting C compiler ABI info
+[4.338s] -- Detecting C compiler ABI info - done
+[4.368s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.370s] -- Detecting C compile features
+[4.373s] -- Detecting C compile features - done
+[4.391s] -- Detecting CXX compiler ABI info
+[4.810s] -- Detecting CXX compiler ABI info - done
+[4.842s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.843s] -- Detecting CXX compile features
+[4.845s] -- Detecting CXX compile features - done
+[5.022s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[5.023s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[5.023s]   asked CMake to find a package configuration file provided by "catkin", but
+[5.024s]   CMake did not find one.
+[5.025s] 
+[5.027s]   Could not find a package configuration file provided by "catkin" with any
+[5.028s]   of the following names:
+[5.030s] 
+[5.033s]     catkinConfig.cmake
+[5.034s]     catkin-config.cmake
+[5.035s] 
+[5.036s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[5.037s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[5.038s]   provides a separate development package or SDK, be sure it has been
+[5.039s]   installed.
+[5.040s] 
+[5.041s] [0m
+[5.043s] -- Configuring incomplete, errors occurred!
+[5.045s] See also "/home/mine/Desktop/ugv02/build/rplidar_ros/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,50 @@
+[0.079s] Invoking command in '/home/mine/Desktop/ros2_ws/build/ugv02_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mine/Desktop/ros2_ws/build/ugv02_cartographer -- -j4 -l4
+[0.295s] Invoked command in '/home/mine/Desktop/ros2_ws/build/ugv02_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mine/Desktop/ros2_ws/build/ugv02_cartographer -- -j4 -l4
+[0.479s] Invoking command in '/home/mine/Desktop/ros2_ws/build/ugv02_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mine/Desktop/ros2_ws/build/ugv02_cartographer
+[0.528s] -- Install configuration: ""
+[0.529s] -- Up-to-date: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share/ament_index/resource_index/package_run_dependencies/ugv02_cartographer
+[0.530s] -- Up-to-date: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share/ament_index/resource_index/parent_prefix_path/ugv02_cartographer
+[0.531s] -- Up-to-date: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/environment/ament_prefix_path.sh
+[0.534s] -- Up-to-date: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/environment/ament_prefix_path.dsv
+[0.536s] -- Up-to-date: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/environment/path.sh
+[0.536s] -- Up-to-date: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/environment/path.dsv
+[0.538s] -- Up-to-date: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/local_setup.bash
+[0.540s] -- Up-to-date: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/local_setup.sh
+[0.542s] -- Up-to-date: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/local_setup.zsh
+[0.543s] -- Up-to-date: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/local_setup.dsv
+[0.544s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/package.dsv
+[0.545s] -- Up-to-date: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share/ament_index/resource_index/packages/ugv02_cartographer
+[0.547s] -- Up-to-date: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/cmake/ugv02_cartographerConfig.cmake
+[0.548s] -- Up-to-date: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/cmake/ugv02_cartographerConfig-version.cmake
+[0.549s] -- Up-to-date: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/package.xml
+[0.550s] -- Up-to-date: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//config
+[0.551s] -- Up-to-date: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//config/cartographer_2d.lua
+[0.553s] -- Up-to-date: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch
+[0.554s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/cartographer.launch.py
+[0.555s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/build
+[0.556s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/build/.built_by
+[0.561s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/build/COLCON_IGNORE
+[0.561s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/install
+[0.562s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/install/local_setup.bash
+[0.563s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/install/setup.sh
+[0.564s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/install/_local_setup_util_ps1.py
+[0.564s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/install/.colcon_install_layout
+[0.565s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/install/setup.ps1
+[0.566s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/install/_local_setup_util_sh.py
+[0.571s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/install/local_setup.sh
+[0.575s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/install/local_setup.ps1
+[0.576s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/install/COLCON_IGNORE
+[0.577s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/install/local_setup.zsh
+[0.579s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/install/setup.zsh
+[0.579s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/install/setup.bash
+[0.580s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/log
+[0.581s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/log/build_2024-04-25_00-37-51
+[0.582s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/log/build_2024-04-25_00-37-51/events.log
+[0.584s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/log/build_2024-04-25_00-37-51/logger_all.log
+[0.597s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/log/latest
+[0.598s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/log/latest_build
+[0.600s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/log/COLCON_IGNORE
+[0.601s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/log/build_2024-04-25_00-36-22
+[0.606s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/log/build_2024-04-25_00-36-22/events.log
+[0.615s] -- Installing: /home/mine/Desktop/ros2_ws/install/ugv02_cartographer/share//launch/log/build_2024-04-25_00-36-22/logger_all.log
+[0.616s] Invoked command in '/home/mine/Desktop/ros2_ws/build/ugv02_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mine/Desktop/ros2_ws/build/ugv02_cartographer

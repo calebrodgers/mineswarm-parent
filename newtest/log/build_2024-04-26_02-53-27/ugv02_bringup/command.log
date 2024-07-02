@@ -1,0 +1,6 @@
+Invoking command in '/home/mine/newtest/build/ugv02_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mine/newtest/src/ugv02_bringup -DCMAKE_INSTALL_PREFIX=/home/mine/newtest/install/ugv02_bringup
+Invoked command in '/home/mine/newtest/build/ugv02_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mine/newtest/src/ugv02_bringup -DCMAKE_INSTALL_PREFIX=/home/mine/newtest/install/ugv02_bringup
+Invoking command in '/home/mine/newtest/build/ugv02_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mine/newtest/build/ugv02_bringup -- -j4 -l4
+Invoked command in '/home/mine/newtest/build/ugv02_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mine/newtest/build/ugv02_bringup -- -j4 -l4
+Invoking command in '/home/mine/newtest/build/ugv02_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mine/newtest/build/ugv02_bringup
+Invoked command in '/home/mine/newtest/build/ugv02_bringup' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mine/newtest/build/ugv02_bringup

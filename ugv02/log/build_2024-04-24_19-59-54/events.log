@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.002361] (communication_module) JobQueued: {'identifier': 'communication_module', 'dependencies': OrderedDict()}
+[0.002915] (ldlidar_stl_ros2) JobQueued: {'identifier': 'ldlidar_stl_ros2', 'dependencies': OrderedDict()}
+[0.003175] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.003685] (communication_module) JobStarted: {'identifier': 'communication_module'}
+[0.058037] (ldlidar_stl_ros2) JobStarted: {'identifier': 'ldlidar_stl_ros2'}
+[0.098362] (-) TimerEvent: {}
+[0.199205] (-) TimerEvent: {}
+[0.300026] (-) TimerEvent: {}
+[0.378752] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.400609] (-) TimerEvent: {}
+[0.506484] (-) TimerEvent: {}
+[0.607470] (-) TimerEvent: {}
+[0.708538] (-) TimerEvent: {}
+[0.810866] (-) TimerEvent: {}
+[0.912033] (-) TimerEvent: {}
+[1.012876] (-) TimerEvent: {}
+[1.113592] (-) TimerEvent: {}
+[1.214387] (-) TimerEvent: {}
+[1.315137] (-) TimerEvent: {}
+[1.416069] (-) TimerEvent: {}
+[1.516899] (-) TimerEvent: {}
+[1.617775] (-) TimerEvent: {}
+[1.700668] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'cmake'}
+[1.705010] (ldlidar_stl_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/mine/Desktop/ugv02/src/ldlidar_stl_ros2', '-DCMAKE_INSTALL_PREFIX=/home/mine/Desktop/ugv02/install/ldlidar_stl_ros2'], 'cwd': '/home/mine/Desktop/ugv02/build/ldlidar_stl_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mine'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/mine'), ('OLDPWD', '/home/mine/Desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1154'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'mine'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mine'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/mine/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mine-desktop:@/tmp/.ICE-unix/1131,unix/mine-desktop:/tmp/.ICE-unix/1131'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c388417a_6d04_4185_9444_7860abc810b3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TT8DM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mine/Desktop/ugv02/build/ldlidar_stl_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[1.718376] (-) TimerEvent: {}
+[1.735976] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[1.745357] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/mine/Desktop/ugv02/src/rplidar_ros', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/mine/Desktop/ugv02/install/rplidar_ros'], 'cwd': '/home/mine/Desktop/ugv02/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mine'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/mine'), ('OLDPWD', '/home/mine/Desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1154'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'mine'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mine'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/mine/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mine-desktop:@/tmp/.ICE-unix/1131,unix/mine-desktop:/tmp/.ICE-unix/1131'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c388417a_6d04_4185_9444_7860abc810b3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TT8DM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mine/Desktop/ugv02/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[1.819433] (-) TimerEvent: {}
+[1.929651] (-) TimerEvent: {}
+[2.002762] (rplidar_ros) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[2.003682] (rplidar_ros) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[2.004374] (rplidar_ros) StderrLine: {'line': b'  CMake.\n'}
+[2.005067] (rplidar_ros) StderrLine: {'line': b'\n'}
+[2.005618] (rplidar_ros) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[2.006132] (rplidar_ros) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[2.007036] (rplidar_ros) StderrLine: {'line': b'\n'}
+[2.008587] (rplidar_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[2.029898] (-) TimerEvent: {}
+[2.131480] (-) TimerEvent: {}
+[2.232606] (-) TimerEvent: {}
+[2.309481] (ldlidar_stl_ros2) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[2.310629] (ldlidar_stl_ros2) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[2.311868] (ldlidar_stl_ros2) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[2.312826] (ldlidar_stl_ros2) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[2.313355] (ldlidar_stl_ros2) StderrLine: {'line': b'\n'}
+[2.313839] (ldlidar_stl_ros2) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[2.314392] (ldlidar_stl_ros2) StderrLine: {'line': b'  any of the following names:\n'}
+[2.314954] (ldlidar_stl_ros2) StderrLine: {'line': b'\n'}
+[2.315516] (ldlidar_stl_ros2) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[2.315845] (ldlidar_stl_ros2) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[2.316141] (ldlidar_stl_ros2) StderrLine: {'line': b'\n'}
+[2.316463] (ldlidar_stl_ros2) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[2.316804] (ldlidar_stl_ros2) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[2.317175] (ldlidar_stl_ros2) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[2.330759] (ldlidar_stl_ros2) StderrLine: {'line': b'  has been installed.\n'}
+[2.331813] (ldlidar_stl_ros2) StderrLine: {'line': b'\n'}
+[2.332504] (ldlidar_stl_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[2.334819] (-) TimerEvent: {}
+[2.335696] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.351773] (ldlidar_stl_ros2) StdoutLine: {'line': b'See also "/home/mine/Desktop/ugv02/build/ldlidar_stl_ros2/CMakeFiles/CMakeOutput.log".\n'}
+[2.353077] (ldlidar_stl_ros2) CommandEnded: {'returncode': 1}
+[2.435272] (-) TimerEvent: {}
+[2.536187] (-) TimerEvent: {}
+[2.579160] (ldlidar_stl_ros2) JobEnded: {'identifier': 'ldlidar_stl_ros2', 'rc': 1}
+[2.636352] (-) TimerEvent: {}
+[2.737093] (-) TimerEvent: {}
+[2.838211] (-) TimerEvent: {}
+[2.939322] (-) TimerEvent: {}
+[3.040251] (-) TimerEvent: {}
+[3.087827] (rplidar_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.142711] (-) TimerEvent: {}
+[3.243905] (-) TimerEvent: {}
+[3.345279] (-) TimerEvent: {}
+[3.446463] (-) TimerEvent: {}
+[3.547354] (-) TimerEvent: {}
+[3.648166] (-) TimerEvent: {}
+[3.749231] (-) TimerEvent: {}
+[3.850354] (-) TimerEvent: {}
+[3.951630] (-) TimerEvent: {}
+[4.052803] (-) TimerEvent: {}
+[4.138366] (rplidar_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.153225] (-) TimerEvent: {}
+[4.191505] (communication_module) JobEnded: {'identifier': 'communication_module', 'rc': 'SIGINT'}
+[4.212913] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.253438] (-) TimerEvent: {}
+[4.354487] (-) TimerEvent: {}
+[4.455748] (-) TimerEvent: {}
+[4.570553] (-) TimerEvent: {}
+[4.672029] (-) TimerEvent: {}
+[4.732284] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.762133] (rplidar_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.764216] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.767174] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.772197] (-) TimerEvent: {}
+[4.784945] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.872613] (-) TimerEvent: {}
+[4.973967] (-) TimerEvent: {}
+[5.075030] (-) TimerEvent: {}
+[5.176577] (-) TimerEvent: {}
+[5.203722] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.235879] (rplidar_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.236862] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.239052] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.276801] (-) TimerEvent: {}
+[5.377932] (-) TimerEvent: {}
+[5.415679] (rplidar_ros) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (find_package):\n'}
+[5.416887] (rplidar_ros) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[5.417475] (rplidar_ros) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[5.418164] (rplidar_ros) StderrLine: {'line': b'  CMake did not find one.\n'}
+[5.419083] (rplidar_ros) StderrLine: {'line': b'\n'}
+[5.419990] (rplidar_ros) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[5.421479] (rplidar_ros) StderrLine: {'line': b'  of the following names:\n'}
+[5.423539] (rplidar_ros) StderrLine: {'line': b'\n'}
+[5.425345] (rplidar_ros) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[5.427806] (rplidar_ros) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[5.428937] (rplidar_ros) StderrLine: {'line': b'\n'}
+[5.429988] (rplidar_ros) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[5.431124] (rplidar_ros) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[5.431943] (rplidar_ros) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[5.432924] (rplidar_ros) StderrLine: {'line': b'  installed.\n'}
+[5.434229] (rplidar_ros) StderrLine: {'line': b'\n'}
+[5.435188] (rplidar_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[5.436395] (rplidar_ros) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.437706] (rplidar_ros) StdoutLine: {'line': b'See also "/home/mine/Desktop/ugv02/build/rplidar_ros/CMakeFiles/CMakeOutput.log".\n'}
+[5.439874] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 'SIGINT'}
+[5.452035] (-) EventReactorShutdown: {}

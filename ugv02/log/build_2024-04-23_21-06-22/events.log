@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.001745] (communication_module) JobQueued: {'identifier': 'communication_module', 'dependencies': OrderedDict()}
+[0.002345] (communication_module) JobStarted: {'identifier': 'communication_module'}
+[0.098973] (-) TimerEvent: {}
+[0.199905] (-) TimerEvent: {}
+[0.303902] (-) TimerEvent: {}
+[0.404714] (-) TimerEvent: {}
+[0.505550] (-) TimerEvent: {}
+[0.606229] (-) TimerEvent: {}
+[0.706918] (-) TimerEvent: {}
+[0.807603] (-) TimerEvent: {}
+[0.908296] (-) TimerEvent: {}
+[1.008916] (-) TimerEvent: {}
+[1.109762] (-) TimerEvent: {}
+[1.210452] (-) TimerEvent: {}
+[1.311646] (-) TimerEvent: {}
+[1.412592] (-) TimerEvent: {}
+[1.513549] (-) TimerEvent: {}
+[1.614268] (-) TimerEvent: {}
+[1.714982] (-) TimerEvent: {}
+[1.815732] (-) TimerEvent: {}
+[1.916473] (-) TimerEvent: {}
+[2.017196] (-) TimerEvent: {}
+[2.118072] (-) TimerEvent: {}
+[2.219022] (-) TimerEvent: {}
+[2.319720] (-) TimerEvent: {}
+[2.420399] (-) TimerEvent: {}
+[2.521060] (-) TimerEvent: {}
+[2.621962] (-) TimerEvent: {}
+[2.722662] (-) TimerEvent: {}
+[2.823619] (-) TimerEvent: {}
+[2.924456] (-) TimerEvent: {}
+[3.001774] (communication_module) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/communication_module', 'build', '--build-base', '/home/mine/Desktop/ugv02/build/communication_module/build', 'install', '--record', '/home/mine/Desktop/ugv02/build/communication_module/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mine/Desktop/ugv02/src/communication_module', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mine', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mine', 'OLDPWD': '/home/mine/Desktop/ugv02/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1198', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mine', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mine', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mine/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mine-desktop:@/tmp/.ICE-unix/1167,unix/mine-desktop:/tmp/.ICE-unix/1167', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8ec91980_7850_4c3e_84c1_a8d258381996', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.F1WSM2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mine/Desktop/ugv02/build/communication_module', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mine/Desktop/ugv02/build/communication_module/prefix_override:/home/mine/Desktop/ugv02/install/communication_module/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.024662] (-) TimerEvent: {}
+[3.125641] (-) TimerEvent: {}
+[3.226356] (-) TimerEvent: {}
+[3.327039] (-) TimerEvent: {}
+[3.427746] (-) TimerEvent: {}
+[3.528496] (-) TimerEvent: {}
+[3.629168] (-) TimerEvent: {}
+[3.730194] (-) TimerEvent: {}
+[3.830866] (-) TimerEvent: {}
+[3.931527] (-) TimerEvent: {}
+[4.032236] (-) TimerEvent: {}
+[4.132924] (-) TimerEvent: {}
+[4.233655] (-) TimerEvent: {}
+[4.270502] (communication_module) StdoutLine: {'line': b'running egg_info\n'}
+[4.273325] (communication_module) StdoutLine: {'line': b'creating ../../build/communication_module/communication_module.egg-info\n'}
+[4.276416] (communication_module) StdoutLine: {'line': b'writing ../../build/communication_module/communication_module.egg-info/PKG-INFO\n'}
+[4.276990] (communication_module) StdoutLine: {'line': b'writing dependency_links to ../../build/communication_module/communication_module.egg-info/dependency_links.txt\n'}
+[4.277561] (communication_module) StdoutLine: {'line': b'writing entry points to ../../build/communication_module/communication_module.egg-info/entry_points.txt\n'}
+[4.278221] (communication_module) StdoutLine: {'line': b'writing requirements to ../../build/communication_module/communication_module.egg-info/requires.txt\n'}
+[4.278723] (communication_module) StdoutLine: {'line': b'writing top-level names to ../../build/communication_module/communication_module.egg-info/top_level.txt\n'}
+[4.279715] (communication_module) StdoutLine: {'line': b"writing manifest file '../../build/communication_module/communication_module.egg-info/SOURCES.txt'\n"}
+[4.287379] (communication_module) StdoutLine: {'line': b"reading manifest file '../../build/communication_module/communication_module.egg-info/SOURCES.txt'\n"}
+[4.291119] (communication_module) StdoutLine: {'line': b"writing manifest file '../../build/communication_module/communication_module.egg-info/SOURCES.txt'\n"}
+[4.291852] (communication_module) StdoutLine: {'line': b'running build\n'}
+[4.292685] (communication_module) StdoutLine: {'line': b'running build_py\n'}
+[4.293590] (communication_module) StdoutLine: {'line': b'creating /home/mine/Desktop/ugv02/build/communication_module/build\n'}
+[4.294600] (communication_module) StdoutLine: {'line': b'creating /home/mine/Desktop/ugv02/build/communication_module/build/lib\n'}
+[4.295568] (communication_module) StdoutLine: {'line': b'creating /home/mine/Desktop/ugv02/build/communication_module/build/lib/communication_module\n'}
+[4.296396] (communication_module) StdoutLine: {'line': b'copying communication_module/ugv02_control.py -> /home/mine/Desktop/ugv02/build/communication_module/build/lib/communication_module\n'}
+[4.297030] (communication_module) StdoutLine: {'line': b'copying communication_module/__init__.py -> /home/mine/Desktop/ugv02/build/communication_module/build/lib/communication_module\n'}
+[4.297898] (communication_module) StdoutLine: {'line': b'running install\n'}
+[4.299332] (communication_module) StdoutLine: {'line': b'running install_lib\n'}
+[4.303439] (communication_module) StdoutLine: {'line': b'creating /home/mine/Desktop/ugv02/install/communication_module/lib/python3.10/site-packages/communication_module\n'}
+[4.304204] (communication_module) StdoutLine: {'line': b'copying /home/mine/Desktop/ugv02/build/communication_module/build/lib/communication_module/ugv02_control.py -> /home/mine/Desktop/ugv02/install/communication_module/lib/python3.10/site-packages/communication_module\n'}
+[4.305097] (communication_module) StdoutLine: {'line': b'copying /home/mine/Desktop/ugv02/build/communication_module/build/lib/communication_module/__init__.py -> /home/mine/Desktop/ugv02/install/communication_module/lib/python3.10/site-packages/communication_module\n'}
+[4.307738] (communication_module) StdoutLine: {'line': b'byte-compiling /home/mine/Desktop/ugv02/install/communication_module/lib/python3.10/site-packages/communication_module/ugv02_control.py to ugv02_control.cpython-310.pyc\n'}
+[4.310422] (communication_module) StdoutLine: {'line': b'byte-compiling /home/mine/Desktop/ugv02/install/communication_module/lib/python3.10/site-packages/communication_module/__init__.py to __init__.cpython-310.pyc\n'}
+[4.311540] (communication_module) StdoutLine: {'line': b'running install_data\n'}
+[4.312368] (communication_module) StdoutLine: {'line': b'creating /home/mine/Desktop/ugv02/install/communication_module/share/ament_index\n'}
+[4.313002] (communication_module) StdoutLine: {'line': b'creating /home/mine/Desktop/ugv02/install/communication_module/share/ament_index/resource_index\n'}
+[4.313491] (communication_module) StdoutLine: {'line': b'creating /home/mine/Desktop/ugv02/install/communication_module/share/ament_index/resource_index/packages\n'}
+[4.313880] (communication_module) StdoutLine: {'line': b'copying resource/communication_module -> /home/mine/Desktop/ugv02/install/communication_module/share/ament_index/resource_index/packages\n'}
+[4.314362] (communication_module) StdoutLine: {'line': b'copying package.xml -> /home/mine/Desktop/ugv02/install/communication_module/share/communication_module\n'}
+[4.314867] (communication_module) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.321996] (communication_module) StdoutLine: {'line': b'Copying ../../build/communication_module/communication_module.egg-info to /home/mine/Desktop/ugv02/install/communication_module/lib/python3.10/site-packages/communication_module-0.0.0-py3.10.egg-info\n'}
+[4.328080] (communication_module) StdoutLine: {'line': b'running install_scripts\n'}
+[4.333801] (-) TimerEvent: {}
+[4.434519] (-) TimerEvent: {}
+[4.436947] (communication_module) StdoutLine: {'line': b'Installing ugv02_control script to /home/mine/Desktop/ugv02/install/communication_module/lib/communication_module\n'}
+[4.443413] (communication_module) StdoutLine: {'line': b"writing list of installed files to '/home/mine/Desktop/ugv02/build/communication_module/install.log'\n"}
+[4.534824] (-) TimerEvent: {}
+[4.579216] (communication_module) CommandEnded: {'returncode': 0}
+[4.629403] (communication_module) JobEnded: {'identifier': 'communication_module', 'rc': 0}
+[4.632028] (-) EventReactorShutdown: {}

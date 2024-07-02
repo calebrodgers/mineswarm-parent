@@ -1,0 +1,1 @@
+Invoking command in '/home/mine/Desktop/ugv02/build/rplidar_ros': /usr/bin/cmake /home/mine/Desktop/ugv02/src/rplidar_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mine/Desktop/ugv02/install/rplidar_ros

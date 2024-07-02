@@ -1,0 +1,33 @@
+[1.122s] Invoking command in '/home/mine/Desktop/ugv02/build/ldlidar_stl_ros2': /usr/bin/cmake /home/mine/Desktop/ugv02/src/ldlidar_stl_ros2 -DCMAKE_INSTALL_PREFIX=/home/mine/Desktop/ugv02/install/ldlidar_stl_ros2
+[1.858s] -- The C compiler identification is GNU 11.4.0
+[2.679s] -- The CXX compiler identification is GNU 11.4.0
+[2.717s] -- Detecting C compiler ABI info
+[3.159s] -- Detecting C compiler ABI info - done
+[3.187s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.189s] -- Detecting C compile features
+[3.190s] -- Detecting C compile features - done
+[3.207s] -- Detecting CXX compiler ABI info
+[3.669s] -- Detecting CXX compiler ABI info - done
+[3.692s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.694s] -- Detecting CXX compile features
+[3.697s] -- Detecting CXX compile features - done
+[3.883s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[3.884s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[3.885s]   has asked CMake to find a package configuration file provided by
+[3.886s]   "ament_cmake", but CMake did not find one.
+[3.888s] 
+[3.889s]   Could not find a package configuration file provided by "ament_cmake" with
+[3.890s]   any of the following names:
+[3.892s] 
+[3.893s]     ament_cmakeConfig.cmake
+[3.894s]     ament_cmake-config.cmake
+[3.896s] 
+[3.897s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[3.898s] -- Configuring incomplete, errors occurred!
+[3.899s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[3.899s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[3.900s]   has been installed.
+[3.901s] 
+[3.902s] [0m
+[3.902s] See also "/home/mine/Desktop/ugv02/build/ldlidar_stl_ros2/CMakeFiles/CMakeOutput.log".
+[3.912s] Invoked command in '/home/mine/Desktop/ugv02/build/ldlidar_stl_ros2' returned '1': /usr/bin/cmake /home/mine/Desktop/ugv02/src/ldlidar_stl_ros2 -DCMAKE_INSTALL_PREFIX=/home/mine/Desktop/ugv02/install/ldlidar_stl_ros2

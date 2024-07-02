@@ -1,0 +1,4 @@
+Invoking command in '/home/mine/Desktop/ros2_ws/build/ugv02_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mine/Desktop/ros2_ws/build/ugv02_cartographer -- -j4 -l4
+Invoked command in '/home/mine/Desktop/ros2_ws/build/ugv02_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mine/Desktop/ros2_ws/build/ugv02_cartographer -- -j4 -l4
+Invoking command in '/home/mine/Desktop/ros2_ws/build/ugv02_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mine/Desktop/ros2_ws/build/ugv02_cartographer
+Invoked command in '/home/mine/Desktop/ros2_ws/build/ugv02_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mine/Desktop/ros2_ws/build/ugv02_cartographer

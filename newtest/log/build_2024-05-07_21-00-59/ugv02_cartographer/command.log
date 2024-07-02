@@ -1,0 +1,2 @@
+Invoking command in '/home/mine/Desktop/newtest/build/ugv02_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mine/Desktop/newtest/build/ugv02_cartographer -- -j4 -l4
+Invoked command in '/home/mine/Desktop/newtest/build/ugv02_cartographer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mine/Desktop/newtest/build/ugv02_cartographer -- -j4 -l4

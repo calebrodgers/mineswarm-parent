@@ -1,0 +1,21 @@
+[1.122s] Invoking command in '/home/mine/Desktop/ugv02/build/ldlidar_stl_ros2': /usr/bin/cmake /home/mine/Desktop/ugv02/src/ldlidar_stl_ros2 -DCMAKE_INSTALL_PREFIX=/home/mine/Desktop/ugv02/install/ldlidar_stl_ros2
+[1.349s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[1.350s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.350s]   has asked CMake to find a package configuration file provided by
+[1.352s] -- Configuring incomplete, errors occurred!
+[1.353s] See also "/home/mine/Desktop/ugv02/build/ldlidar_stl_ros2/CMakeFiles/CMakeOutput.log".
+[1.356s]   "ament_cmake", but CMake did not find one.
+[1.357s] 
+[1.359s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.361s]   any of the following names:
+[1.363s] 
+[1.365s]     ament_cmakeConfig.cmake
+[1.367s]     ament_cmake-config.cmake
+[1.372s] 
+[1.376s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.377s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.378s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.379s]   has been installed.
+[1.382s] 
+[1.383s] [0m
+[1.396s] Invoked command in '/home/mine/Desktop/ugv02/build/ldlidar_stl_ros2' returned '1': /usr/bin/cmake /home/mine/Desktop/ugv02/src/ldlidar_stl_ros2 -DCMAKE_INSTALL_PREFIX=/home/mine/Desktop/ugv02/install/ldlidar_stl_ros2
