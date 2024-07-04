@@ -36,4 +36,18 @@ ros2 launch rosbridge_server rosbridge_websocket_launch.xml
 
 
 
+LIDAR
 
+
+source ros
+
+lidar
+cd Desktop/ros2_ws
+source install/setup.bash
+sudo chmod 777 /dev/ttyUSB0
+ros2 launch sllidar_ros2 sllidar_a1_launch.py
+
+cartographer
+cd Desktop/newtest
+source install/setup.bash
+ros2 launch ugv02_cartographer cartographer.launch.py
