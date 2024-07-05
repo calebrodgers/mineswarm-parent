@@ -1,6 +1,0 @@
-[0.088s] Invoking command in '/home/mine/Desktop/newtest/build/ugv02_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mine/Desktop/newtest/build/ugv02_bringup -- -j4 -l4
-[0.155s] [0mCMake Error: The current CMakeCache.txt directory /home/mine/Desktop/newtest/build/ugv02_bringup/CMakeCache.txt is different than the directory /home/mine/newtest/build/ugv02_bringup where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.200s] [0mCMake Error: The source directory "/home/mine/newtest/src/ugv02_bringup" does not exist.
-[0.201s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.212s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.228s] Invoked command in '/home/mine/Desktop/newtest/build/ugv02_bringup' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mine/Desktop/newtest/build/ugv02_bringup -- -j4 -l4

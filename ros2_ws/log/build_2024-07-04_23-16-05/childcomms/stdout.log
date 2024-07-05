@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/childcomms/childcomms.egg-info
+writing ../../build/childcomms/childcomms.egg-info/PKG-INFO
+writing dependency_links to ../../build/childcomms/childcomms.egg-info/dependency_links.txt
+writing entry points to ../../build/childcomms/childcomms.egg-info/entry_points.txt
+writing requirements to ../../build/childcomms/childcomms.egg-info/requires.txt
+writing top-level names to ../../build/childcomms/childcomms.egg-info/top_level.txt
+writing manifest file '../../build/childcomms/childcomms.egg-info/SOURCES.txt'
+reading manifest file '../../build/childcomms/childcomms.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/childcomms/childcomms.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mine/Desktop/mineswarm-parent/ros2_ws/build/childcomms/build
+creating /home/mine/Desktop/mineswarm-parent/ros2_ws/build/childcomms/build/lib
+creating /home/mine/Desktop/mineswarm-parent/ros2_ws/build/childcomms/build/lib/childcomms
+copying childcomms/childcomms1.py -> /home/mine/Desktop/mineswarm-parent/ros2_ws/build/childcomms/build/lib/childcomms
+copying childcomms/childcomms2.py -> /home/mine/Desktop/mineswarm-parent/ros2_ws/build/childcomms/build/lib/childcomms
+copying childcomms/__init__.py -> /home/mine/Desktop/mineswarm-parent/ros2_ws/build/childcomms/build/lib/childcomms
+running install
+running install_lib
+creating /home/mine/Desktop/mineswarm-parent/ros2_ws/install/childcomms/lib/python3.10/site-packages/childcomms
+copying /home/mine/Desktop/mineswarm-parent/ros2_ws/build/childcomms/build/lib/childcomms/childcomms1.py -> /home/mine/Desktop/mineswarm-parent/ros2_ws/install/childcomms/lib/python3.10/site-packages/childcomms
+copying /home/mine/Desktop/mineswarm-parent/ros2_ws/build/childcomms/build/lib/childcomms/childcomms2.py -> /home/mine/Desktop/mineswarm-parent/ros2_ws/install/childcomms/lib/python3.10/site-packages/childcomms
+copying /home/mine/Desktop/mineswarm-parent/ros2_ws/build/childcomms/build/lib/childcomms/__init__.py -> /home/mine/Desktop/mineswarm-parent/ros2_ws/install/childcomms/lib/python3.10/site-packages/childcomms
+byte-compiling /home/mine/Desktop/mineswarm-parent/ros2_ws/install/childcomms/lib/python3.10/site-packages/childcomms/childcomms1.py to childcomms1.cpython-310.pyc
+byte-compiling /home/mine/Desktop/mineswarm-parent/ros2_ws/install/childcomms/lib/python3.10/site-packages/childcomms/childcomms2.py to childcomms2.cpython-310.pyc
+byte-compiling /home/mine/Desktop/mineswarm-parent/ros2_ws/install/childcomms/lib/python3.10/site-packages/childcomms/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/mine/Desktop/mineswarm-parent/ros2_ws/install/childcomms/share/ament_index
+creating /home/mine/Desktop/mineswarm-parent/ros2_ws/install/childcomms/share/ament_index/resource_index
+creating /home/mine/Desktop/mineswarm-parent/ros2_ws/install/childcomms/share/ament_index/resource_index/packages
+copying resource/childcomms -> /home/mine/Desktop/mineswarm-parent/ros2_ws/install/childcomms/share/ament_index/resource_index/packages
+copying package.xml -> /home/mine/Desktop/mineswarm-parent/ros2_ws/install/childcomms/share/childcomms
+running install_egg_info
+Copying ../../build/childcomms/childcomms.egg-info to /home/mine/Desktop/mineswarm-parent/ros2_ws/install/childcomms/lib/python3.10/site-packages/childcomms-0.0.0-py3.10.egg-info
+running install_scripts
+Installing childcomms1 script to /home/mine/Desktop/mineswarm-parent/ros2_ws/install/childcomms/lib/childcomms
+Installing childcomms2 script to /home/mine/Desktop/mineswarm-parent/ros2_ws/install/childcomms/lib/childcomms
+writing list of installed files to '/home/mine/Desktop/mineswarm-parent/ros2_ws/build/childcomms/install.log'

@@ -1,6 +1,0 @@
-[0.109s] Invoking command in '/home/mine/Desktop/newtest/build/ugv02_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mine/Desktop/newtest/build/ugv02_cartographer -- -j4 -l4
-[0.127s] [0mCMake Error: The current CMakeCache.txt directory /home/mine/Desktop/newtest/build/ugv02_cartographer/CMakeCache.txt is different than the directory /home/mine/newtest/build/ugv02_cartographer where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.175s] [0mCMake Error: The source directory "/home/mine/newtest/src/ugv02_cartographer" does not exist.
-[0.175s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.177s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.193s] Invoked command in '/home/mine/Desktop/newtest/build/ugv02_cartographer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mine/Desktop/newtest/build/ugv02_cartographer -- -j4 -l4

@@ -1,2 +1,0 @@
-Invoking command in '/home/mine/Desktop/ugv02/build/ldlidar_stl_ros2': /usr/bin/cmake /home/mine/Desktop/ugv02/src/ldlidar_stl_ros2 -DCMAKE_INSTALL_PREFIX=/home/mine/Desktop/ugv02/install/ldlidar_stl_ros2
-Invoked command in '/home/mine/Desktop/ugv02/build/ldlidar_stl_ros2' returned '1': /usr/bin/cmake /home/mine/Desktop/ugv02/src/ldlidar_stl_ros2 -DCMAKE_INSTALL_PREFIX=/home/mine/Desktop/ugv02/install/ldlidar_stl_ros2

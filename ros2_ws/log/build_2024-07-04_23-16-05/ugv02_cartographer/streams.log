@@ -1,0 +1,48 @@
+[2.785s] Invoking command in '/home/mine/Desktop/mineswarm-parent/ros2_ws/build/ugv02_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mine/Desktop/mineswarm-parent/ros2_ws/src/ugv02_cartographer -DCMAKE_INSTALL_PREFIX=/home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer
+[4.035s] -- The C compiler identification is GNU 11.4.0
+[4.883s] -- The CXX compiler identification is GNU 11.4.0
+[4.954s] -- Detecting C compiler ABI info
+[5.543s] -- Detecting C compiler ABI info - done
+[5.571s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.577s] -- Detecting C compile features
+[5.581s] -- Detecting C compile features - done
+[5.604s] -- Detecting CXX compiler ABI info
+[6.158s] -- Detecting CXX compiler ABI info - done
+[6.187s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.188s] -- Detecting CXX compile features
+[6.190s] -- Detecting CXX compile features - done
+[6.248s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.380s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.504s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.032s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.036s] -- Added test 'lint_cmake' to check CMake code style
+[9.040s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.049s] -- Added test 'xmllint' to check XML markup files
+[9.058s] -- Configuring done
+[9.080s] -- Generating done
+[9.085s] -- Build files have been written to: /home/mine/Desktop/mineswarm-parent/ros2_ws/build/ugv02_cartographer
+[9.103s] Invoked command in '/home/mine/Desktop/mineswarm-parent/ros2_ws/build/ugv02_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mine/Desktop/mineswarm-parent/ros2_ws/src/ugv02_cartographer -DCMAKE_INSTALL_PREFIX=/home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer
+[9.114s] Invoking command in '/home/mine/Desktop/mineswarm-parent/ros2_ws/build/ugv02_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mine/Desktop/mineswarm-parent/ros2_ws/build/ugv02_cartographer -- -j4 -l4
+[9.265s] Invoked command in '/home/mine/Desktop/mineswarm-parent/ros2_ws/build/ugv02_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mine/Desktop/mineswarm-parent/ros2_ws/build/ugv02_cartographer -- -j4 -l4
+[9.415s] Invoking command in '/home/mine/Desktop/mineswarm-parent/ros2_ws/build/ugv02_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mine/Desktop/mineswarm-parent/ros2_ws/build/ugv02_cartographer
+[9.442s] -- Install configuration: ""
+[9.443s] -- Installing: /home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/config
+[9.444s] -- Installing: /home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/config/cartographer_2d.lua
+[9.445s] -- Installing: /home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/launch
+[9.446s] -- Installing: /home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/launch/cartographer.launch.py
+[9.448s] -- Installing: /home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ament_index/resource_index/package_run_dependencies/ugv02_cartographer
+[9.450s] -- Installing: /home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ament_index/resource_index/parent_prefix_path/ugv02_cartographer
+[9.452s] -- Installing: /home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/environment/ament_prefix_path.sh
+[9.453s] -- Installing: /home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/environment/ament_prefix_path.dsv
+[9.455s] -- Installing: /home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/environment/path.sh
+[9.456s] -- Installing: /home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/environment/path.dsv
+[9.458s] -- Installing: /home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/local_setup.bash
+[9.459s] -- Installing: /home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/local_setup.sh
+[9.461s] -- Installing: /home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/local_setup.zsh
+[9.462s] -- Installing: /home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/local_setup.dsv
+[9.466s] -- Installing: /home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/package.dsv
+[9.468s] -- Installing: /home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ament_index/resource_index/packages/ugv02_cartographer
+[9.469s] -- Installing: /home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/cmake/ugv02_cartographerConfig.cmake
+[9.470s] -- Installing: /home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/cmake/ugv02_cartographerConfig-version.cmake
+[9.472s] -- Installing: /home/mine/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/package.xml
+[9.481s] Invoked command in '/home/mine/Desktop/mineswarm-parent/ros2_ws/build/ugv02_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mine/Desktop/mineswarm-parent/ros2_ws/build/ugv02_cartographer

@@ -36,18 +36,22 @@ ros2 launch rosbridge_server rosbridge_websocket_launch.xml
 
 
 
-LIDAR
+LIDAR AND CARTOGRAPHER
 
-
-source ros
-
-lidar
-cd Desktop/ros2_ws
+source /opt/ros/humble/setup.bash
+cd Desktop/mineswarm-parent/ros2_ws
 source install/setup.bash
 sudo chmod 777 /dev/ttyUSB0
 ros2 launch sllidar_ros2 sllidar_a1_launch.py
-
-cartographer
-cd Desktop/newtest
+(new terminal for cartographer)
+source /opt/ros/humble/setup.bash
+cd Desktop/mineswarm-parent/ros2_ws
 source install/setup.bash
 ros2 launch ugv02_cartographer cartographer.launch.py
+
+TO ENABLE DRIVE CONTROL OF ROBOT
+
+source /opt/ros/humble/setup.bash
+cd Desktop/mineswarm-parent/ros2_ws
+source install/setup.bash
+ros2 run communication_module ugv02_control
