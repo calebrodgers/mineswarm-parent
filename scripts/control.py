@@ -6,8 +6,12 @@ import math
 
 ser = serial.Serial('/dev/ttyS0',115200,timeout=1)
 
+# take in coordinates of area to be searched
+# break up into areas to be searched by children
+# drive to child deployment locations
+# deploy children 
 
-
+#later: ADJUST PLAN BASED ON LOCATIONS OF MINES
 
 def main():
 	angle_time = abs(float(sys.argv[1])) / 50

@@ -15,7 +15,7 @@ print('hi')
 UDP_PARENT_IP = "192.168.0.107"
 UDP_PARENT_PORT = 50000
 
-UDP_CHILD_IP = "192.168.4.80"
+UDP_CHILD_IP = "192.168.0.35"
 UDP_CHILD_PORT = 1112
 
 child_sock = socket.socket(socket.AF_INET, # Internet
@@ -84,19 +84,6 @@ def main(args=None):
     minimal_publisher.timer_callback(0.0, 0.0)
 
     #rclpy.spin(minimal_publisher)
-    
-    child_sock.sendto(b"start", (UDP_CHILD_IP, UDP_CHILD_PORT))
-    print('sent start')
-    time.sleep(0.5)
-    child_sock.sendto(b"start", (UDP_CHILD_IP, UDP_CHILD_PORT))
-    print('sent start')
-    time.sleep(0.5)
-    child_sock.sendto(b"start", (UDP_CHILD_IP, UDP_CHILD_PORT))
-    print('sent start')
-    time.sleep(0.5)
-    child_sock.sendto(b"start", (UDP_CHILD_IP, UDP_CHILD_PORT))
-    print('sent start')
-    time.sleep(0.5)
     
     print('listening for position')
     
