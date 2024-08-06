@@ -30,9 +30,9 @@ child4_sock = socket.socket(socket.AF_INET, # Internet
                      socket.SOCK_DGRAM) # UDP
 
 
-parent_sock = socket.socket(socket.AF_INET, # Internet
-                     socket.SOCK_DGRAM) # UDP
-parent_sock.bind((UDP_PARENT_IP, UDP_PARENT_PORT))
+#parent_sock = socket.socket(socket.AF_INET, # Internet
+#                     socket.SOCK_DGRAM) # UDP
+#parent_sock.bind((UDP_PARENT_IP, UDP_PARENT_PORT))
 
 if '1' in sys.argv:
     print('Deploying Child Platform 1')
@@ -63,6 +63,6 @@ if '3' in sys.argv:
 if '4' in sys.argv:
     child4_sock.sendto(b"0.4,0.6", (UDP_CHILD4_IP, UDP_CHILD4_PORT))
 
-while True:
-    data, addr = parent_sock.recvfrom(1024) # buffer size is 1024 bytes
-    print(data.decode())
+#while True:
+#    data, addr = parent_sock.recvfrom(1024) # buffer size is 1024 bytes
+#    print(data.decode())
