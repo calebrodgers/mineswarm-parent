@@ -1,0 +1,569 @@
+[2.484s] Invoking command in '/home/robot/Desktop/mineswarm-parent/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2
+[3.862s] -- The C compiler identification is GNU 11.4.0
+[5.529s] -- The CXX compiler identification is GNU 11.4.0
+[5.568s] -- Detecting C compiler ABI info
+[6.040s] -- Detecting C compiler ABI info - done
+[6.075s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.077s] -- Detecting C compile features
+[6.080s] -- Detecting C compile features - done
+[6.097s] -- Detecting CXX compiler ABI info
+[6.631s] -- Detecting CXX compiler ABI info - done
+[6.670s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.671s] -- Detecting CXX compile features
+[6.673s] -- Detecting CXX compile features - done
+[6.723s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.694s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.358s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[8.771s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.820s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.897s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.002s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.144s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.716s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.743s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.406s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.660s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.092s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.173s] -- Looking for pthread.h
+[11.542s] -- Looking for pthread.h - found
+[11.544s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.884s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.890s] -- Found Threads: TRUE  
+[12.632s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[13.175s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[13.573s] -- Configuring done
+[13.662s] -- Generating done
+[13.670s] -- Build files have been written to: /home/robot/Desktop/mineswarm-parent/ros2_ws/build/sllidar_ros2
+[13.713s] Invoked command in '/home/robot/Desktop/mineswarm-parent/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2
+[13.722s] Invoking command in '/home/robot/Desktop/mineswarm-parent/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/Desktop/mineswarm-parent/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[13.938s] [  5%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o[0m
+[13.939s] [ 10%] [32mBuilding CXX object CMakeFiles/sllidar_client.dir/src/sllidar_client.cpp.o[0m
+[13.944s] [ 15%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[13.966s] [ 20%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[16.768s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[16.768s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[16.770s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[16.771s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[16.772s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[16.774s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[16.775s]       |                [01;35m[K^[m[K
+[16.776s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[16.776s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[16.777s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[16.778s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[16.780s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[16.781s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[16.783s]       |                    [01;35m[K^[m[K
+[17.151s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/arch_linux.h:42[m[K,
+[17.152s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:41[m[K,
+[17.153s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[17.154s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress*, const void*, size_t)[m[K’:
+[17.155s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:733:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[17.155s]   733 |             assert([01;35m[Kans == len[m[K);
+[17.156s]       |                    [01;35m[K~~~~^~~~~~[m[K
+[17.352s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[17.352s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.354s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[17.354s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[17.356s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[17.358s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.363s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[17.364s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[17.365s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[17.366s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.366s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[17.377s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[17.378s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[17.379s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.380s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[17.380s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[17.381s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::cancelOperation()[m[K’:
+[17.382s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:427:5:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[17.383s]   427 |     [01;35m[K(int)::write(_selfpipe[1], "x", 1)[m[K;
+[17.384s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.053s] [ 25%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[18.284s] [ 30%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/dataunpacker.cpp.o[0m
+[21.288s] [ 35%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o[0m
+[21.367s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[21.368s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[21.368s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[21.369s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunnpacker_commondef.h:41[m[K,
+[21.371s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:39[m[K:
+[21.371s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[21.372s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[21.373s]       |                [01;35m[K^[m[K
+[21.375s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[21.376s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[21.377s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[21.378s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunnpacker_commondef.h:41[m[K,
+[21.378s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:39[m[K:
+[21.379s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[21.380s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[21.381s]       |                    [01;35m[K^[m[K
+[22.536s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:40[m[K:
+[22.538s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[22.539s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.540s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[22.541s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[22.542s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.543s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[22.544s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[22.544s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.545s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[22.546s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[22.547s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.548s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[22.548s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[22.549s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[22.550s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.551s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[22.551s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[22.552s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.553s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[22.554s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[22.555s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.556s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[22.556s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[22.570s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.570s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[22.571s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[23.961s] [ 40%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o[0m
+[24.183s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[24.184s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[24.184s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[24.185s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[24.186s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39[m[K:
+[24.187s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[24.187s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[24.188s]       |                [01;35m[K^[m[K
+[24.192s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[24.192s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[24.193s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[24.194s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[24.194s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39[m[K:
+[24.195s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[24.196s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[24.196s]       |                    [01;35m[K^[m[K
+[25.436s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:40[m[K:
+[25.437s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[25.438s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.439s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[25.439s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[25.440s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.441s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[25.442s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[25.443s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.443s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[25.444s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[25.453s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.454s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[25.455s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[25.456s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[25.456s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.458s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[25.459s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[25.460s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.461s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[25.462s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[25.463s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.464s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[25.465s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[25.478s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.479s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[25.479s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[25.509s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:[m[K In member function ‘[01m[Kvoid sl::internal::unpacker::UnpackerHandler_DenseCapsuleNode::_onScanNodeDenseCapsuleData(rplidar_response_dense_capsule_measurement_nodes_t&, sl::internal::LIDARSampleDataUnpackerInner*)[m[K’:
+[25.509s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:763:30:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[25.510s]   763 |             const int dist = [01;35m[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)[m[K;
+[25.511s]       |                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.550s] [ 45%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o[0m
+[26.764s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[26.765s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[26.766s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[26.767s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[26.768s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39[m[K:
+[26.769s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[26.770s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[26.772s]       |                [01;35m[K^[m[K
+[26.773s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[26.774s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[26.775s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[26.776s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[26.777s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39[m[K:
+[26.778s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[26.778s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[26.779s]       |                    [01;35m[K^[m[K
+[28.000s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:40[m[K:
+[28.002s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[28.003s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.004s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[28.005s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[28.006s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.007s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[28.008s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[28.008s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.009s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[28.010s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[28.011s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.012s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[28.013s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[28.022s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[28.023s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.024s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[28.024s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[28.025s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.026s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[28.027s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[28.028s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.029s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[28.030s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[28.030s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.031s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[28.032s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[28.932s] [ 50%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/hal/thread.cpp.o[0m
+[29.773s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[29.775s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[29.776s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[29.777s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[29.778s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39[m[K:
+[29.779s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[29.780s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[29.781s]       |                [01;35m[K^[m[K
+[29.782s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[29.782s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[29.783s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[29.784s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[29.785s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39[m[K:
+[29.786s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[29.787s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[29.788s]       |                    [01;35m[K^[m[K
+[30.672s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[30.673s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[30.674s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[30.675s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[30.676s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[30.676s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[30.677s]       |                [01;35m[K^[m[K
+[30.679s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[30.680s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[30.685s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[30.687s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[30.688s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[30.689s]       |                    [01;35m[K^[m[K
+[30.944s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:40[m[K:
+[30.945s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[30.946s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[30.946s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[30.947s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[30.948s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[30.949s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[30.950s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[30.951s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[30.951s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[30.952s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[30.953s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[30.954s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[30.955s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[30.955s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[30.956s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[30.969s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[30.970s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[30.971s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[30.972s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[30.973s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[30.974s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[30.974s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[30.975s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[30.976s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[30.977s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[30.978s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[31.677s] [ 55%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/rplidar_driver.cpp.o[0m
+[31.977s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[31.978s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[31.979s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[31.979s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[31.980s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[31.980s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[31.981s]       |                [01;35m[K^[m[K
+[31.985s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[31.986s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[31.986s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[31.987s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[31.988s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[31.988s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[31.989s]       |                    [01;35m[K^[m[K
+[32.288s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:43[m[K:
+[32.290s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[32.295s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:52:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[32.297s]    52 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+[32.298s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.305s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[32.307s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:176:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[32.308s]   176 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[32.309s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[32.761s] [ 60%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_async_transceiver.cpp.o[0m
+[34.278s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[34.279s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[34.279s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[34.280s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33[m[K:
+[34.282s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[34.283s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[34.283s]       |                [01;35m[K^[m[K
+[34.284s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[34.285s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[34.286s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[34.287s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33[m[K:
+[34.287s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[34.288s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[34.289s]       |                    [01;35m[K^[m[K
+[35.222s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)[m[K’:
+[35.223s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:67:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[35.225s]    67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, [01;35m[K_u32 flag[m[K)
+[35.226s]       |                                                                        [01;35m[K~~~~~^~~~[m[K
+[35.226s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)[m[K’:
+[35.227s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:101:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[35.228s]   101 |     u_result RPlidarDriver::reset([01;35m[K_u32 timeout[m[K)
+[35.229s]       |                                   [01;35m[K~~~~~^~~~~~~[m[K
+[35.234s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)[m[K’:
+[35.234s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodebuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[35.235s]   180 |     u_result RPlidarDriver::getScanDataWithInterval([01;35m[Krplidar_response_measurement_node_t * nodebuffer[m[K, size_t & count)
+[35.236s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[35.237s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[35.238s]   180 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, [01;35m[Ksize_t & count[m[K)
+[35.239s]       |                                                                                                       [01;35m[K~~~~~~~~~^~~~~[m[K
+[35.694s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[35.695s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[35.696s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[35.697s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:35[m[K:
+[35.698s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[35.699s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[35.700s]       |                [01;35m[K^[m[K
+[35.700s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[35.701s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[35.702s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[35.703s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:35[m[K:
+[35.704s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[35.704s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[35.705s]       |                    [01;35m[K^[m[K
+[35.863s] [ 65%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_crc.cpp.o[0m
+[36.002s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[36.003s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_crc.h:36[m[K,
+[36.003s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_crc.cpp:33[m[K:
+[36.005s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[36.006s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[36.007s]       |                [01;35m[K^[m[K
+[36.007s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_crc.h:36[m[K,
+[36.008s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_crc.cpp:33[m[K:
+[36.009s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[36.010s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[36.011s]       |                    [01;35m[K^[m[K
+[36.118s] [ 70%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidar_driver.cpp.o[0m
+[36.401s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:44[m[K:
+[36.402s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[36.403s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[36.404s]    90 |         virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[36.404s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[37.313s] [ 75%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidarprotocol_codec.cpp.o[0m
+[39.281s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[39.283s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[39.284s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[39.285s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[39.286s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[39.287s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[39.288s]       |                [01;35m[K^[m[K
+[39.289s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[39.290s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[39.291s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[39.291s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[39.292s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[39.293s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[39.294s]       |                    [01;35m[K^[m[K
+[40.401s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[40.402s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[40.403s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[40.405s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:35[m[K:
+[40.406s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[40.407s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[40.408s]       |                [01;35m[K^[m[K
+[40.420s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[40.422s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[40.423s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[40.424s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:35[m[K:
+[40.431s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[40.433s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[40.434s]       |                    [01;35m[K^[m[K
+[41.027s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:50[m[K:
+[41.028s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[41.029s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.031s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[41.032s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[41.034s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.035s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[41.036s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[41.037s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.038s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[41.040s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[41.041s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.042s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[41.043s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[41.044s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[41.058s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.059s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[41.059s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[41.060s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.061s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[41.063s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[41.064s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.065s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[41.067s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[41.068s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.081s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[41.082s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[41.100s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:51[m[K:
+[41.102s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[41.103s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.104s]    90 |         virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[41.107s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[41.284s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)[m[K’:
+[41.285s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:511:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.286s]   511 |         sl_result reset([01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[41.287s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.315s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)[m[K’:
+[41.316s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:586:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.317s]   586 |         sl_result startScan(bool force, bool useTypicalScan, [01;35m[Ksl_u32 options = 0[m[K, LidarScanMode* outUsedScanMode = nullptr)
+[41.318s]       |                                                              [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[41.332s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)[m[K’:
+[41.333s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:763:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.335s]   763 |         sl_result stop([01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[41.336s]       |                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.352s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)[m[K’:
+[41.353s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:880:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.354s]   880 |         sl_result getFrequency(const LidarScanMode& scanMode, [01;35m[Kconst sl_lidar_response_measurement_node_hq_t* nodes[m[K, size_t count, float& frequency)
+[41.355s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[41.379s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)[m[K’:
+[41.380s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1023:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.381s]  1023 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, [01;35m[Ksl_u32 timeoutInMs[m[K)
+[41.382s]       |                                                           [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[41.389s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Ku_result sl::SlamtecLidarDriver::getScanModeCount(sl_u16&, sl_u32)[m[K’:
+[41.390s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1199:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.391s]  1199 |         u_result getScanModeCount(sl_u16& modeCount, [01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[41.392s]       |                                                      [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.731s] /home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In instantiation of ‘[01m[Kvoid sl::RawSampleNodeHolder<T>::pushNode(_u64, const T*) [with T = sl_lidar_response_measurement_node_hq_t; _u64 = long unsigned int][m[K’:
+[41.733s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1648:42:[m[K   required from here
+[41.734s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:202:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimestamp_uS[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.736s]   202 |         void pushNode([01;35m[K_u64 timestamp_uS[m[K, const T* node)
+[41.737s]       |                       [01;35m[K~~~~~^~~~~~~~~~~~[m[K
+[42.006s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:49[m[K:
+[42.007s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[42.008s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[42.009s]    90 |         virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[42.009s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[42.482s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K At global scope:
+[42.484s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:83:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[42.485s]    83 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+[42.486s]       |                 [01;35m[K^~~~~~~[m[K
+[42.487s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:75:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_t&, sl_lidar_response_measurement_node_hq_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[42.488s]    75 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_t& from, sl_lidar_response_measurement_node_hq_t& to)
+[42.490s]       |                 [01;35m[K^~~~~~~[m[K
+[42.492s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:70:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::printDeprecationWarn(const char*, const char*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[42.505s]    70 |     static void [01;35m[KprintDeprecationWarn[m[K(const char* fn, const char* replacement)
+[42.506s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[42.690s] [ 80%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_serial_channel.cpp.o[0m
+[44.576s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[44.578s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[44.579s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33[m[K:
+[44.581s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[44.582s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[44.583s]       |                [01;35m[K^[m[K
+[44.590s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[44.591s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33[m[K:
+[44.592s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[44.593s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[44.594s]       |                    [01;35m[K^[m[K
+[44.907s] [ 85%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_tcp_channel.cpp.o[0m
+[45.010s] [ 90%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_udp_channel.cpp.o[0m
+[46.834s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[46.837s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[46.839s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[46.845s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[46.846s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[46.847s]       |                [01;35m[K^[m[K
+[46.849s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[46.850s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[46.851s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[46.853s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[46.854s]       |                    [01;35m[K^[m[K
+[46.885s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::TcpChannel::setStatus(_u32)[m[K’:
+[46.886s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:109:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[46.887s]   109 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[46.888s]       |                        [01;35m[K~~~~~^~~~[m[K
+[47.209s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[47.210s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[47.211s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33[m[K:
+[47.215s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[47.216s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[47.218s]       |                [01;35m[K^[m[K
+[47.226s] In file included from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[47.227s]                  from [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33[m[K:
+[47.227s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[47.228s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[47.229s]       |                    [01;35m[K^[m[K
+[47.258s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::UdpChannel::setStatus(_u32)[m[K’:
+[47.259s] [01m[K/home/robot/Desktop/mineswarm-parent/ros2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:112:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[47.260s]   112 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[47.261s]       |                        [01;35m[K~~~~~^~~~[m[K
+[48.673s] [ 95%] [32m[1mLinking CXX executable sllidar_node[0m
+[50.511s] [ 95%] Built target sllidar_node
+[61.361s] [100%] [32m[1mLinking CXX executable sllidar_client[0m
+[63.348s] [100%] Built target sllidar_client
+[63.390s] Invoked command in '/home/robot/Desktop/mineswarm-parent/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/Desktop/mineswarm-parent/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[63.778s] Invoking command in '/home/robot/Desktop/mineswarm-parent/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/Desktop/mineswarm-parent/ros2_ws/build/sllidar_ros2
+[63.805s] -- Install configuration: ""
+[63.806s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch
+[63.806s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[63.806s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[63.807s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[63.807s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[63.807s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[63.808s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[63.808s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[63.808s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[63.809s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[63.809s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[63.810s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[63.810s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[63.810s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[63.811s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[63.811s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[63.811s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[63.812s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[63.812s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[63.812s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[63.813s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[63.813s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[63.813s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[63.814s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[63.814s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[63.814s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz
+[63.815s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[63.815s] -- Installing: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[63.829s] -- Set runtime path of "/home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node" to ""
+[63.830s] -- Installing: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[63.857s] -- Set runtime path of "/home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client" to ""
+[63.858s] -- Installing: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[63.859s] -- Installing: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[63.860s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[63.861s] -- Installing: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[63.862s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[63.863s] -- Installing: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[63.864s] -- Installing: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[63.865s] -- Installing: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[63.866s] -- Installing: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[63.868s] -- Installing: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[63.869s] -- Installing: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[63.870s] -- Installing: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[63.872s] -- Installing: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[63.873s] -- Installing: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[63.875s] -- Installing: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[63.876s] -- Installing: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[63.877s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[63.884s] Invoked command in '/home/robot/Desktop/mineswarm-parent/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/Desktop/mineswarm-parent/ros2_ws/build/sllidar_ros2

@@ -20,8 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-                'childcomms1 = childcomms.childcomms1:main',
-                'childcomms2 = childcomms.childcomms2:main',
+                'childcomms = childcomms.childcomms:main',
         ],
 },
 )

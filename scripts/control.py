@@ -39,7 +39,7 @@ def deployChild(childRobotID, x, y):
     if childRobotID == 1:
     	#child1_sock.sendto(b"2", (UDP_CHILD1_IP, UDP_CHILD1_PORT))
     	#time.sleep(1)
-    	child1_sock.sendto(b"0.4,0.6", (UDP_CHILD1_IP, UDP_CHILD1_PORT))
+    	child1_sock.sendto(f"{x},{y}".encode('utf-8'), (UDP_CHILD1_IP, UDP_CHILD1_PORT))
     if childRobotID == 2:
     	#child1_sock.sendto(b"2", (UDP_CHILD2_IP, UDP_CHILD2_PORT))
     	#time.sleep(1)
@@ -84,4 +84,7 @@ def deploy_child_robots_to_search_area(main_area_x, main_area_y, num_child_robot
 
 #deploy_child_robots_to_search_area(sys.argv[1], sys.argv[2], num_child_robots)
 
-deployChild(1, 1, 1)
+deployChild(1, 0.4, 0.4)
+deployChild(2, 0.4, 0.4)
+deployChild(3, 0.4, 0.4)
+deployChild(4, 0.4, 0.4)

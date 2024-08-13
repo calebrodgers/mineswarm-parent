@@ -1,0 +1,28 @@
+[4.652s] Invoking command in '/home/robot/Desktop/mineswarm-parent/ros2_ws/src/communication_module': PYTHONPATH=/home/robot/Desktop/mineswarm-parent/ros2_ws/build/communication_module/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/communication_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/communication_module build --build-base /home/robot/Desktop/mineswarm-parent/ros2_ws/build/communication_module/build install --record /home/robot/Desktop/mineswarm-parent/ros2_ws/build/communication_module/install.log --single-version-externally-managed install_data
+[6.373s] running egg_info
+[6.376s] creating ../../build/communication_module/communication_module.egg-info
+[6.379s] writing ../../build/communication_module/communication_module.egg-info/PKG-INFO
+[6.383s] writing dependency_links to ../../build/communication_module/communication_module.egg-info/dependency_links.txt
+[6.386s] writing entry points to ../../build/communication_module/communication_module.egg-info/entry_points.txt
+[6.389s] writing requirements to ../../build/communication_module/communication_module.egg-info/requires.txt
+[6.392s] writing top-level names to ../../build/communication_module/communication_module.egg-info/top_level.txt
+[6.395s] writing manifest file '../../build/communication_module/communication_module.egg-info/SOURCES.txt'
+[6.407s] reading manifest file '../../build/communication_module/communication_module.egg-info/SOURCES.txt'
+[6.414s] writing manifest file '../../build/communication_module/communication_module.egg-info/SOURCES.txt'
+[6.417s] running build
+[6.418s] running build_py
+[6.420s] creating /home/robot/Desktop/mineswarm-parent/ros2_ws/build/communication_module/build
+[6.422s] creating /home/robot/Desktop/mineswarm-parent/ros2_ws/build/communication_module/build/lib
+[6.424s] creating /home/robot/Desktop/mineswarm-parent/ros2_ws/build/communication_module/build/lib/communication_module
+[6.425s] copying communication_module/ugv02_control.py -> /home/robot/Desktop/mineswarm-parent/ros2_ws/build/communication_module/build/lib/communication_module
+[6.428s] copying communication_module/__init__.py -> /home/robot/Desktop/mineswarm-parent/ros2_ws/build/communication_module/build/lib/communication_module
+[6.431s] running install
+[6.434s] running install_lib
+[6.444s] running install_data
+[6.446s] running install_egg_info
+[6.458s] removing '/home/robot/Desktop/mineswarm-parent/ros2_ws/install/communication_module/lib/python3.10/site-packages/communication_module-0.0.0-py3.10.egg-info' (and everything under it)
+[6.464s] Copying ../../build/communication_module/communication_module.egg-info to /home/robot/Desktop/mineswarm-parent/ros2_ws/install/communication_module/lib/python3.10/site-packages/communication_module-0.0.0-py3.10.egg-info
+[6.484s] running install_scripts
+[6.701s] Installing ugv02_control script to /home/robot/Desktop/mineswarm-parent/ros2_ws/install/communication_module/lib/communication_module
+[6.704s] writing list of installed files to '/home/robot/Desktop/mineswarm-parent/ros2_ws/build/communication_module/install.log'
+[6.890s] Invoked command in '/home/robot/Desktop/mineswarm-parent/ros2_ws/src/communication_module' returned '0': PYTHONPATH=/home/robot/Desktop/mineswarm-parent/ros2_ws/build/communication_module/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/communication_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/communication_module build --build-base /home/robot/Desktop/mineswarm-parent/ros2_ws/build/communication_module/build install --record /home/robot/Desktop/mineswarm-parent/ros2_ws/build/communication_module/install.log --single-version-externally-managed install_data
