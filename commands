@@ -11,6 +11,8 @@ https://www.waveshare.com/wiki/Chassis_Control_Tutorial
 servo installation
 sudo apt-get -y install python3-rpi.gpio
 sudo pip3 install adafruit-circuitpython-servokit
+
+(maybe fixes a potential python issue)
 sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
 
 
