@@ -1,0 +1,53 @@
+[4.053s] Invoking command in '/home/robot/Desktop/mineswarm-parent/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/communication_module:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/childcomms:/opt/ros/humble /usr/bin/cmake --build /home/robot/Desktop/mineswarm-parent/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[4.824s] [ 90%] Built target sllidar_node
+[4.897s] [100%] Built target sllidar_client
+[5.127s] Invoked command in '/home/robot/Desktop/mineswarm-parent/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/communication_module:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/childcomms:/opt/ros/humble /usr/bin/cmake --build /home/robot/Desktop/mineswarm-parent/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[6.111s] Invoking command in '/home/robot/Desktop/mineswarm-parent/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/communication_module:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/childcomms:/opt/ros/humble /usr/bin/cmake --install /home/robot/Desktop/mineswarm-parent/ros2_ws/build/sllidar_ros2
+[6.206s] -- Install configuration: ""
+[6.209s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch
+[6.212s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[6.216s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[6.221s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[6.226s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[6.227s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[6.228s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[6.230s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[6.232s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[6.237s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[6.241s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[6.242s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[6.243s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[6.245s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[6.248s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[6.249s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[6.253s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[6.255s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[6.256s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[6.257s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[6.259s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[6.261s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[6.262s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[6.263s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[6.265s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[6.266s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz
+[6.267s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[6.269s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[6.270s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[6.271s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[6.273s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[6.294s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[6.296s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[6.297s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[6.299s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[6.300s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[6.301s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[6.303s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[6.305s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[6.306s] -- Installing: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[6.308s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[6.310s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.313s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.316s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[6.317s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[6.319s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[6.321s] Invoked command in '/home/robot/Desktop/mineswarm-parent/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/communication_module:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/childcomms:/opt/ros/humble /usr/bin/cmake --install /home/robot/Desktop/mineswarm-parent/ros2_ws/build/sllidar_ros2

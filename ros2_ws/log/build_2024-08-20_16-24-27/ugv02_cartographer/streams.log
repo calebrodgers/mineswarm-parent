@@ -1,0 +1,24 @@
+[2.613s] Invoking command in '/home/robot/Desktop/mineswarm-parent/ros2_ws/build/ugv02_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/communication_module:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/childcomms:/opt/ros/humble /usr/bin/cmake --build /home/robot/Desktop/mineswarm-parent/ros2_ws/build/ugv02_cartographer -- -j4 -l4
+[2.834s] Invoked command in '/home/robot/Desktop/mineswarm-parent/ros2_ws/build/ugv02_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/communication_module:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/childcomms:/opt/ros/humble /usr/bin/cmake --build /home/robot/Desktop/mineswarm-parent/ros2_ws/build/ugv02_cartographer -- -j4 -l4
+[3.102s] Invoking command in '/home/robot/Desktop/mineswarm-parent/ros2_ws/build/ugv02_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/communication_module:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/childcomms:/opt/ros/humble /usr/bin/cmake --install /home/robot/Desktop/mineswarm-parent/ros2_ws/build/ugv02_cartographer
+[3.145s] -- Install configuration: ""
+[3.145s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/config
+[3.146s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/config/cartographer_2d.lua
+[3.147s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/launch
+[3.147s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/launch/cartographer.launch.py
+[3.148s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ament_index/resource_index/package_run_dependencies/ugv02_cartographer
+[3.149s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ament_index/resource_index/parent_prefix_path/ugv02_cartographer
+[3.150s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/environment/ament_prefix_path.sh
+[3.150s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/environment/ament_prefix_path.dsv
+[3.160s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/environment/path.sh
+[3.161s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/environment/path.dsv
+[3.161s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/local_setup.bash
+[3.162s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/local_setup.sh
+[3.162s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/local_setup.zsh
+[3.163s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/local_setup.dsv
+[3.164s] -- Installing: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/package.dsv
+[3.164s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ament_index/resource_index/packages/ugv02_cartographer
+[3.165s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/cmake/ugv02_cartographerConfig.cmake
+[3.165s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/cmake/ugv02_cartographerConfig-version.cmake
+[3.166s] -- Up-to-date: /home/robot/Desktop/mineswarm-parent/ros2_ws/install/ugv02_cartographer/share/ugv02_cartographer/package.xml
+[3.180s] Invoked command in '/home/robot/Desktop/mineswarm-parent/ros2_ws/build/ugv02_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/communication_module:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/childcomms:/opt/ros/humble /usr/bin/cmake --install /home/robot/Desktop/mineswarm-parent/ros2_ws/build/ugv02_cartographer

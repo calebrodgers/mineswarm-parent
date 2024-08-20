@@ -12,7 +12,7 @@ CHILD1_DOWN_ANGLE = 180
 CHILD2_UP_ANGLE = 0
 CHILD2_DOWN_ANGLE = 180
 CHILD3_UP_ANGLE = 0
-CHILD3_DOWN_ANGLE = 180kit.servo[0].angle = 0
+CHILD3_DOWN_ANGLE = 180
 CHILD4_UP_ANGLE = 0
 CHILD5_DOWN_ANGLE = 180
 
@@ -31,7 +31,7 @@ UDP_CHILD3_PORT = 1112
 UDP_CHILD4_IP = "192.168.0.45"
 UDP_CHILD4_PORT = 1112
 
-kit = ServoKit(channels=16)
+#kit = ServoKit(channels=16)
     
 child1_sock = socket.socket(socket.AF_INET, # Internet
                      socket.SOCK_DGRAM) # UDP
@@ -49,22 +49,22 @@ child4_sock = socket.socket(socket.AF_INET, # Internet
 def deployChild(childRobotID, x, y):
     print(f"Deploying child robot {childRobotID} to relative location ({x}, {y})")
     if childRobotID == 1:
-    	kit.servo[0].angle = CHILD1_DOWN_ANGLE
+    	#kit.servo[0].angle = CHILD1_DOWN_ANGLE
     	#child1_sock.sendto(b"2", (UDP_CHILD1_IP, UDP_CHILD1_PORT))
     	#time.sleep(1)
     	child1_sock.sendto(f"{x},{y}".encode('utf-8'), (UDP_CHILD1_IP, UDP_CHILD1_PORT))
     if childRobotID == 2:
-    	kit.servo[1].angle = CHILD2_DOWN_ANGLE
+    	#kit.servo[1].angle = CHILD2_DOWN_ANGLE
     	#child1_sock.sendto(b"2", (UDP_CHILD2_IP, UDP_CHILD2_PORT))
     	#time.sleep(1)
     	child1_sock.sendto(b"0.4,0.6", (UDP_CHILD2_IP, UDP_CHILD2_PORT))
     if childRobotID == 3:
-    	kit.servo[2].angle = CHILD2_DOWN_ANGLE
+    	#kit.servo[2].angle = CHILD2_DOWN_ANGLE
     	#child1_sock.sendto(b"2", (UDP_CHILD3_IP, UDP_CHILD3_PORT))
     	#time.sleep(1)
     	child1_sock.sendto(b"0.4,0.6", (UDP_CHILD3_IP, UDP_CHILD3_PORT))
     if childRobotID == 4:
-    	kit.servo[4].angle = CHILD2_DOWN_ANGLE
+    	#kit.servo[4].angle = CHILD2_DOWN_ANGLE
     	#child1_sock.sendto(b"2", (UDP_CHILD4_IP, UDP_CHILD4_PORT))
     	#time.sleep(1)
     	child1_sock.sendto(b"0.4,0.6", (UDP_CHILD4_IP, UDP_CHILD4_PORT))
@@ -100,7 +100,7 @@ def deploy_child_robots_to_search_area(main_area_x, main_area_y, num_child_robot
 
 #deploy_child_robots_to_search_area(sys.argv[1], sys.argv[2], num_child_robots)
 
-deployChild(1, 0.4, 0.4)
+#deployChild(1, 0.8, 0.8)
 deployChild(2, 0.4, 0.4)
 deployChild(3, 0.4, 0.4)
-deployChild(4, 0.4, 0.4)
+#deployChild(4, 0.4, 0.4)
