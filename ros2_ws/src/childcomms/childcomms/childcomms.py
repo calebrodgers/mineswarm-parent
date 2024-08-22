@@ -6,7 +6,6 @@ from visualization_msgs.msg import Marker
 
 import math
 
-
 import socket
 import time
 
@@ -74,12 +73,10 @@ def main(args=None):
     rclpy.init(args=args)
 
     minimal_publisher = MinimalPublisher()
-    
     minimal_publisher.timer_callback(0.0, 0.0)
 
-    #rclpy.spin(minimal_publisher)
     
-    print('listening for position')
+    print('Listening to Child Platforms')
     
     #while True:
     #    data, addr = parent_sock.recvfrom(1024) # buffer size is 1024 bytes
@@ -89,18 +86,12 @@ def main(args=None):
     #    numbers_list = numbers_str.split(',')
     #    numbers = [float(num) for num in numbers_list]
     #    
-    #    minimal_publisher.timer_callback(numbers[0],numbers[1])
-    
-    x=1
+    #    minimal_publisher.timer_callback(numbers[0]*X_SCALE,numbers[1]*Y_SCALE, numbers[2])
     
     while True:
-    	minimal_publisher.timer_callback(1.0*X_SCALE+x,2.0*Y_SCALE, False)
+    	minimal_publisher.timer_callback(1.0*X_SCALE,2.0*Y_SCALE, False)
     	time.sleep(2)
-    	x=x+1
 
-    # Destroy the node explicitly
-    # (optional - otherwise it will be done automatically
-    # when the garbage collector destroys the node object)
     minimal_publisher.destroy_node()
     rclpy.shutdown()
 
