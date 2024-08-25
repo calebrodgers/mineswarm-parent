@@ -64,7 +64,7 @@ class MinimalPublisher(Node):
         marker.pose.orientation.z = 0.0
         marker.pose.orientation.w = 1.0
         self.publisher_.publish(marker)
-        self.get_logger().info('Publishing')
+        # self.get_logger().info('Publishing')
         self.i += 1
         self.id += 1
 
