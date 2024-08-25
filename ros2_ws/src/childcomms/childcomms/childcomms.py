@@ -9,15 +9,15 @@ import math
 import socket
 import time
 
-X_SCALE = 1.0
-Y_SCALE = 1.0
+X_SCALE = 5.0
+Y_SCALE = 5.0
 
-#UDP_PARENT_IP = "192.168.0.107"
-#UDP_PARENT_PORT = 50000
+UDP_PARENT_IP = "192.168.0.107"
+UDP_PARENT_PORT = 50000
 
-#parent_sock = socket.socket(socket.AF_INET, # Internet
-#                     socket.SOCK_DGRAM) # UDP
-#parent_sock.bind((UDP_PARENT_IP, UDP_PARENT_PORT))
+parent_sock = socket.socket(socket.AF_INET, # Internet
+                     socket.SOCK_DGRAM) # UDP
+parent_sock.bind((UDP_PARENT_IP, UDP_PARENT_PORT))
 
 class MinimalPublisher(Node):
 
@@ -46,7 +46,7 @@ class MinimalPublisher(Node):
         # Set the color
         marker.color.b = 0.0
         
-        if Threat:
+        if threat:
         	marker.color.r = 1.0
         	marker.color.g = 0.0
         	marker.color.a = 0.5
@@ -73,24 +73,27 @@ def main(args=None):
     rclpy.init(args=args)
 
     minimal_publisher = MinimalPublisher()
-    minimal_publisher.timer_callback(0.0, 0.0)
-
+    #minimal_publisher.timer_callback(0.0, 0.0, False)
     
     print('Listening to Child Platforms')
     
-    #while True:
-    #    data, addr = parent_sock.recvfrom(1024) # buffer size is 1024 bytes
-    #    print(data.decode())
-    #    orig_str = data.decode()
-    #    numbers_str = orig_str.split('[')[1].split(']')[0]
-    #    numbers_list = numbers_str.split(',')
-    #    numbers = [float(num) for num in numbers_list]
-    #    
-    #    minimal_publisher.timer_callback(numbers[0]*X_SCALE,numbers[1]*Y_SCALE, numbers[2])
     
     while True:
-    	minimal_publisher.timer_callback(1.0*X_SCALE,2.0*Y_SCALE, False)
-    	time.sleep(2)
+	    data, addr = parent_sock.recvfrom(1024) # buffer size is 1024 bytes
+	    message = data.decode()
+	    if message[0].isdigit():
+	    	message_components = message.split(',')
+	    	print("== Received Mapping Message from a Child Platform ==")
+	    	print("Child Platform: {}".format(message_components[0]))
+	    	print("X Position: {}".format(float(message_components[1])))
+	    	print("Y Position: {}".format(float(message_components[2])))
+	    	print("Threat Detected: {}".format((bool(int(message_components[3])))))
+	    	print("====================================================\n")
+	    	minimal_publisher.timer_callback(float(message_components[1])*X_SCALE,float(message_components[2])*Y_SCALE, bool(int(message_components[3])))
+	    else:
+	    	print("====== Received Message from a Child Platform ======")
+	    	print(message)
+	    	print("====================================================\n")
 
     minimal_publisher.destroy_node()
     rclpy.shutdown()

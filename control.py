@@ -57,17 +57,17 @@ def deployChild(childRobotID, x, y):
     	#kit.servo[1].angle = CHILD2_DOWN_ANGLE
     	#child1_sock.sendto(b"2", (UDP_CHILD2_IP, UDP_CHILD2_PORT))
     	#time.sleep(1)
-    	child1_sock.sendto(b"0.4,0.6", (UDP_CHILD2_IP, UDP_CHILD2_PORT))
+    	child2_sock.sendto(f"{x},{y}".encode('utf-8'), (UDP_CHILD2_IP, UDP_CHILD2_PORT))
     if childRobotID == 3:
     	#kit.servo[2].angle = CHILD2_DOWN_ANGLE
     	#child1_sock.sendto(b"2", (UDP_CHILD3_IP, UDP_CHILD3_PORT))
     	#time.sleep(1)
-    	child1_sock.sendto(b"0.4,0.6", (UDP_CHILD3_IP, UDP_CHILD3_PORT))
+    	child3_sock.sendto(f"{x},{y}".encode('utf-8'), (UDP_CHILD3_IP, UDP_CHILD3_PORT))
     if childRobotID == 4:
     	#kit.servo[4].angle = CHILD2_DOWN_ANGLE
     	#child1_sock.sendto(b"2", (UDP_CHILD4_IP, UDP_CHILD4_PORT))
     	#time.sleep(1)
-    	child1_sock.sendto(b"0.4,0.6", (UDP_CHILD4_IP, UDP_CHILD4_PORT))
+    	child4_sock.sendto(f"{x},{y}".encode('utf-8'), (UDP_CHILD4_IP, UDP_CHILD4_PORT))
 
 # Define a function to drive the main robot
 def driveMainRobot(x, y):
@@ -100,7 +100,7 @@ def deploy_child_robots_to_search_area(main_area_x, main_area_y, num_child_robot
 
 #deploy_child_robots_to_search_area(sys.argv[1], sys.argv[2], num_child_robots)
 
-#deployChild(1, 0.8, 0.8)
-deployChild(2, 0.4, 0.4)
-deployChild(3, 0.4, 0.4)
+deployChild(1, 0.4, 0.6)
+#deployChild(2, 0.4, 0.4)
+#deployChild(3, 0.4, 0.4)
 #deployChild(4, 0.4, 0.4)

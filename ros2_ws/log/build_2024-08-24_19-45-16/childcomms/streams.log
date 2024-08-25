@@ -1,0 +1,26 @@
+[4.994s] Invoking command in '/home/robot/Desktop/mineswarm-parent/ros2_ws/src/childcomms': PYTHONPATH=/home/robot/Desktop/mineswarm-parent/ros2_ws/build/childcomms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/childcomms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/childcomms build --build-base /home/robot/Desktop/mineswarm-parent/ros2_ws/build/childcomms/build install --record /home/robot/Desktop/mineswarm-parent/ros2_ws/build/childcomms/install.log --single-version-externally-managed install_data
+[6.353s] running egg_info
+[6.357s] writing ../../build/childcomms/childcomms.egg-info/PKG-INFO
+[6.359s] writing dependency_links to ../../build/childcomms/childcomms.egg-info/dependency_links.txt
+[6.360s] writing entry points to ../../build/childcomms/childcomms.egg-info/entry_points.txt
+[6.361s] writing requirements to ../../build/childcomms/childcomms.egg-info/requires.txt
+[6.362s] writing top-level names to ../../build/childcomms/childcomms.egg-info/top_level.txt
+[6.371s] reading manifest file '../../build/childcomms/childcomms.egg-info/SOURCES.txt'
+[6.373s] adding license file 'LICENSE'
+[6.376s] writing manifest file '../../build/childcomms/childcomms.egg-info/SOURCES.txt'
+[6.377s] running build
+[6.378s] running build_py
+[6.379s] copying childcomms/childcomms.py -> /home/robot/Desktop/mineswarm-parent/ros2_ws/build/childcomms/build/lib/childcomms
+[6.380s] running install
+[6.381s] running install_lib
+[6.386s] copying /home/robot/Desktop/mineswarm-parent/ros2_ws/build/childcomms/build/lib/childcomms/childcomms.py -> /home/robot/Desktop/mineswarm-parent/ros2_ws/install/childcomms/lib/python3.10/site-packages/childcomms
+[6.390s] byte-compiling /home/robot/Desktop/mineswarm-parent/ros2_ws/install/childcomms/lib/python3.10/site-packages/childcomms/childcomms.py to childcomms.cpython-310.pyc
+[6.393s] running install_data
+[6.394s] running install_egg_info
+[6.400s] Sorry: IndentationError: expected an indented block after 'while' statement on line 81 (childcomms.py, line 82)
+[6.405s] removing '/home/robot/Desktop/mineswarm-parent/ros2_ws/install/childcomms/lib/python3.10/site-packages/childcomms-0.0.0-py3.10.egg-info' (and everything under it)
+[6.408s] Copying ../../build/childcomms/childcomms.egg-info to /home/robot/Desktop/mineswarm-parent/ros2_ws/install/childcomms/lib/python3.10/site-packages/childcomms-0.0.0-py3.10.egg-info
+[6.415s] running install_scripts
+[6.515s] Installing childcomms script to /home/robot/Desktop/mineswarm-parent/ros2_ws/install/childcomms/lib/childcomms
+[6.517s] writing list of installed files to '/home/robot/Desktop/mineswarm-parent/ros2_ws/build/childcomms/install.log'
+[6.714s] Invoked command in '/home/robot/Desktop/mineswarm-parent/ros2_ws/src/childcomms' returned '0': PYTHONPATH=/home/robot/Desktop/mineswarm-parent/ros2_ws/build/childcomms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/Desktop/mineswarm-parent/ros2_ws/install/childcomms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/childcomms build --build-base /home/robot/Desktop/mineswarm-parent/ros2_ws/build/childcomms/build install --record /home/robot/Desktop/mineswarm-parent/ros2_ws/build/childcomms/install.log --single-version-externally-managed install_data
